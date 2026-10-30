@@ -1,0 +1,25 @@
+# Entorno y credenciales
+.env
+.env.local
+*.env
+
+# Carpetas de dependencias
+/backend/vendor/
+/frontend/node_modules/
+
+# Archivos de construccion y cache
+/backend/storage/*.key
+/backend/storage/framework/cache/*
+/backend/storage/framework/sessions/*
+/backend/storage/framework/views/*
+/frontend/dist/
+/frontend/.vite/
+
+# Datos persistentes de la base de datos local
+/postgres_data/
+
+# Archivos del sistema y editores
+.DS_Store
+.idea/
+.vscode/
+*.log
